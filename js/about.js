@@ -1,4 +1,4 @@
-var shitText = document.querySelector(".about");
+var shitText = document.querySelector(".container");
 
 function replacingShittyText() {
   shitText.innerText = shitText.innerText.replace(
