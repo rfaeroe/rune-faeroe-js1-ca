@@ -40,6 +40,7 @@
 
     <main class="container content">
       <h1>Contact</h1>
+      <div class="formValidated hidden"><p>Form has passed validation</p></div>
       <form id="contactForm">
         <div class="form-group">
           <input
@@ -94,6 +95,13 @@
 
         <button type="submit" class="btn btn-primary" id="submit">
           Submit
+        </button>
+        <button
+          type="submit"
+          class="btn btn-primary clearFields hidden"
+          onClick="refreshPage()"
+        >
+          Clear fields
         </button>
       </form>
     </main>

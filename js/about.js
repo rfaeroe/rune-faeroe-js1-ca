@@ -1,14 +1,14 @@
-var shitText = document.querySelector(".container");
+var replaceText = document.querySelector(".container");
 
-function replacingShittyText() {
-  shitText.innerText = shitText.innerText.replace(
+function replacingText() {
+  replaceText.innerText = replaceText.innerText.replace(
     new RegExp("the", "g"),
     "replace"
   );
-  shitText.innerText = shitText.innerText.replace(
+  replaceText.innerText = replaceText.innerText.replace(
     new RegExp("The", "g"),
     "Replaced"
   );
 }
 
-setTimeout(replacingShittyText, 4000);
+setTimeout(replacingText, 4000);

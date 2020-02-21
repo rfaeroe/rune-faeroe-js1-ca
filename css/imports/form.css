@@ -1,13 +1,18 @@
 form {
-    background: #efefef;
-    padding: 1.5em;
-    border: 1px solid #ced4da;
-    border-radius: 6px;
+  background: #efefef;
+  padding: 1.5em;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
 }
 
 .form-error {
-    color: var(--error);
-    font-size: 14px;
-    margin-top: 3px;
-    display: none;
+  color: var(--error);
+  font-size: 14px;
+  margin-top: 3px;
+  display: none;
+}
+
+.formValidated {
+  color: green;
+  font-size: 20px;
 }
